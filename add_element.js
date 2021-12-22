@@ -19,7 +19,7 @@ request({
 
     items.forEach((e) => {
         if (e) { 
-            console.log(e.replace(/(\s+)/g, ''));
+            console.log(e.replace(/\s+/g, '')); //this is a condensed version however it still has white space between orginigal and appended li
         }
     });
 });
